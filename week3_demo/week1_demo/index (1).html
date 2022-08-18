@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <!--this is a comment in HTML-->
+    <!--head holds important info for the browser to load the page-->
+    <!--head does NOT include page content-->
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Week 1 Demo - HTML </title>
+
+    </head>
+
+    <!--the body holds ALL of the content of the page-->
+    <body style="border:5px solid blue;">
+
+        <!--BLOCK LEVEL ELEMENTS: these define the default structure of the HTML page-->
+        <!--"building blocks" of the web page-->
+        <!-- each block level element starts on a new line-->
+        <!--they "look" like actual boxes-->
+
+        <!--HEADING TAGS are BLEs that are usually found at the top of sections-->
+        <!--they are larger in font size and bolder than default text-->
+
+        <div><!--holding heading information-->
+
+        <!--there are 6 heading tags!-->
+            <h1 style="border:2px solid green;">Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4 style="border:2px solid violet;">Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+
+        </div><!--/end of heading info-->
+
+        <!--HORIZONTAL RULE below-->
+        <!-- also a BLE; creates a line-->
+        <hr>
+
+        <div> <!--holds list information-->
+
+            <!-- LISTS are BLEs-->
+            <!--ORDERED LISTS create .... ordered lists :] -->
+            <!--UNORDERED LISTS create ... bulleted lists-->
+            <h2> Ordered List - Numbered List</h2>
+
+            <h4>FAVORITE WAYS TO SPEND TIME</h4>
+
+            <ol>
+                <!--ol stands for the ordered list tag-->
+                <!-- ols house li (list items)-->
+                <!--this lets browser know how to display the list-->
+                <li>Playing with George, Jack, and Marlowe</li>  
+                <li>Yoga & Hiking</li>
+                <li>TRIVIA NIGHT!</li>   
+
+            </ol>
+
+
+            <h4>FAVORITE BEVERAGES</h4>
+
+            <ul>
+                
+                <li>Whiskey</li>
+                <li>Tea</li>
+                <li>Water</li>
+                <li>Beer</li>
+
+            </ul>
+
+        </div><!--/end of list info-->
+        <hr>
+
+        <h2>HyperText Links</h2>
+        <!--HYPERTEXT Links: links that move the user to another page either internally or outside of the webpage-->
+        <!--anchor tags <a></a> are used to incorporate links-->
+        <h3>Visit the <a href="http://neit.edu" target="_blank">NEIT</a> website!</h3>
+
+        <!--target attribute opens page in new tab-->
+        <!--DEFAULT LINK STATES: blue = standard link, violet = visted link, red = active link-->
+
+
+        <hr> 
+
+        <!--PARAGRAPH TAG holds longer pieces of text (ie: non-titles)-->
+        <h2>PARAGRAPH TAG</h2>
+
+        <p>The North remembers. A Lannister always pays his debts. And now his watch is ended. <br><br> A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. The bear and the maiden fair.
+        </p>
+        <!--BREAK SPACES <br> allow for new empty lines *in the actual page display-->
+        <img src="images/ready.gif" alt="Jon Snow on top of the wall telling Benjen he is ready to travel North" title="I'M READY! - Jon"><!--img does not have a closing tag!-->
+    
+        <!--DIV (short for divider) allows us to group elements together; essentially creating sections-->
+        <!--do not house their own content, they house HTML element content (other elements)-->
+
+        <div style="border:1px solid orange;"><!--separate section of some text-->
+
+            <p>Daoruni gimi, Ionos Sonaro. Nuhor lir gurenna. Toli rhuqo lotinti, kostilus. Bantis zobrie issa se ossyngnoti ledys. Skorī demalyti tymptir tymis, erinis ia morghulis.</p>
+            <p>Daoruni gimi, Ionos Sonaro. Nuhor lir gurenna. Toli rhuqo lotinti, kostilus. Bantis zobrie issa se ossyngnoti ledys. Skorī demalyti tymptir tymis, erinis ia morghulis.</p>
+        
+        </div>
+        <!--INLINE TAGS------------------------------------------------------------------------>
+        <!--change or add information within an exisitng BLE-->
+
+        <p>We can text <b>bold</b> by using the bold/b tag.</p>
+        <p>We can <i>italicize</i> text by using the italics/i tag.</p>
+
+        <p>We can also make text bold using the <strong>strong</strong> tag*.</p>
+        <p>We can also iyalicie by using the <em>emphasis</em> tag*.</p>
+
+        <!-- * strong and emphasis also add extra meaning for SEO; these tags are pulled for search engine results-->
+        
+
+        <p>The North remembers. A <span style="color:red;">Lannister</span> always pays his debts. And now his watch is ended. A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. The bear and the maiden fair.
+        </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;W&nbsp;I&nbsp;N&nbsp;T&nbsp;E&nbsp;R &nbsp;I&nbsp;S&nbsp; C&nbsp;O&nbsp;M&nbsp;I&nbsp;N&nbsp;G</p>
+    </body>
+
+    
+
+</html>

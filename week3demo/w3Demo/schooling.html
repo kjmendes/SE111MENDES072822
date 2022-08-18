@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="week 3 demo on classes">
+    <meta name="author" content="K TRUCHON">
+    <title>W3 | Demo</title>
+
+    <!--in-document styling to showcase id and class power-->
+    <style>
+
+        /*now we're writing in CSS code*/
+        h1 {
+
+            /*border:1px solid blue;*/
+            text-align:center;
+            color:indigo;
+
+        }
+
+        
+        .border {
+
+            /*border is a CLASS in the HTML, called in using a . */
+
+            border:1px solid black;
+            margin-bottom:10px;
+        }
+
+        #nav {
+            /*nav is an ID in the HTML, called in using a #   */
+
+            border:1px solid red;
+            text-align:center;
+        }
+
+        #wrapper {
+
+            width:900px;
+            margin:auto;/*adds equal space to left and right sides, requires a width value applied*/
+        }
+
+        .bg-main {
+
+            background-color:white;
+        }
+
+        .link {
+
+            font-size:26px;
+            text-decoration:none;
+            margin-right:15px;
+        }
+
+        #footer {
+
+            text-align:center;
+        }
+    </style>
+
+</head>
+<body style="background-color:rgb(192, 191, 191)">
+    
+    <!-- wrapper holds the entire page content-->
+    <div id="wrapper">
+
+        <!--header is content that loads first/at top of page-->
+        <!--header is usually a banner image or logo-->
+        <div id="header" class="border bg-main">
+
+            <!--name of the page-->
+            <h1 id="title">SCHOOL PAGE</h1>
+            <!--h1 tags should only be used 1 time in a page-->
+
+
+        </div><!--/ #header-->
+
+        <!--navigaion bar, holds the links to other pages-->
+        <div id="nav" class="border">
+
+            <a href="index.html" class="link">HOME</a>
+            <a href="about.html" class="link">ABOUT</a>
+            <a href="schooling.html" class="link">SCHOOLS</a>
+            <a href="hobbies.html" class="link">HOBBIES</a>
+
+
+        </div><!--/ #nav-->
+
+        <!--main page content -- this usualy changes from page to page-->
+        <div id="content" class="border">
+
+            <p>content of page</p>
+
+
+        </div><!--/ #content-->
+
+        <!--footer - final section of page-->
+        <div id="footer" class="border bg-main">
+
+            <p>&copy; 2021, K TRUCHON | SE111.02</p>
+
+        </div><!--/ #footer-->
+
+    </div><!--/ #wrapper -->
+
+
+
+</body>
+</html>
