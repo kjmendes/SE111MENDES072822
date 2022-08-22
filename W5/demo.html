@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W5 | Tables & Forms</title>
+</head>
+<body>
+    
+    <h1>Basic Form Demo</h1>
+
+    <form>
+
+        <!--labels are used to match with input elements-->
+        <!--'for' attribute connects labels with the input values (matching 'name' atttribute value)-->
+
+        <label for="firstName">First Name: </label>
+        <input type="text" name="firstName" id="firstName">
+
+        <br>
+
+        <label for="lastName">Last Name: </label>
+        <input type="text" name="lastName" id="lastName">
+
+        <br>
+
+        <label for="age">Age: </label>
+        <input type="text" name="age" id="age">
+
+
+    </form>
+
+    <hr>
+
+
+    <h2>Form using a Table</h2>
+
+    <form method="GET" action="confirm.html">
+
+        <table>
+
+            <thead><!--column headers for table in form-->
+                <tr>
+                    <td>
+                        <h2>Question</h2>
+                    </td>
+
+                    <td>
+                        <h2>Answer</h2>
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="fName">First Name:</label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <input type="text" name="fName" id="fName">
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="lName">Last Name:</label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <input type="text" name="lName" id="lName">
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="age">Age:</label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <input type="text" name="age" id="age">
+                    </td>
+
+                </tr>
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="email">Email: </label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <input type="text" id="email" name="email" maxlength="50" placeholder="email@email.com">
+                    </td>
+
+                </tr>
+
+
+                <!--Table Row-->
+                <tr>
+
+                    <!--first column - LABEL -->
+                    <td>
+                        <label for="comments">Comments: </label>
+                    </td>
+
+                    <!--second column- INPUT -->
+                    <td>
+                        <textarea name="comments" id="comments" rows="10" cols="21" placeholder="Enter your comment here ..." style="font-family:Arial, Helvetica, sans-serif"></textarea>
+                    </td>
+
+                </tr>
+
+
+                <!--non text input elements-->
+                <!--select element creates a drop down menu-->
+                <tr>
+
+                    <td>
+                        <label for="faveColor">Pick Your Favorite Color: </label>
+                    </td>
+
+                    <td>
+                        <select name="faveColor">
+
+                            <option value="red">Red</option>
+                            <option value="orange">Orange</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="green">Green</option>
+                            <option value="blue">Blue</option>
+                            <option value="indigo">Indigo</option>
+                            <option value="violet">Violet</option>
+
+                        </select>
+                    </td>
+
+                </tr>
+
+
+                <!--radio buttons: 'multiple choice' options, small circular buttons; can only ever choose ONE out of the set-->
+
+                <tr>
+                    <td>
+                        <label for="study">Program of Study:</label>
+                    </td>
+
+                    <td>
+                        <input type="radio" name="study" value="SE">Software Engineering <br>
+
+                        <input type="radio" name="study" value="CYB">Cybersecurity <br>
+
+                        <input type="radio" name="study" value="WD">Web Development <br>
+                    </td>
+
+                </tr>
+
+                <!--checkboxes allow for multiple responses-->
+
+                <tr>
+                    <td>
+                        <label for="vehicle">Select Your Vehicles</label>
+                    </td>
+
+                    <td>
+                        <input type="checkbox" name="vehicle1" value="car">Car <br>
+                        <input type="checkbox" name="vehicle2" value="Rocinante">The Rocinante <br>
+                        <input type="checkbox" name="vehicle3" value="motorcycle">Motorcycle <br>
+                        <input type="checkbox" name="vehicle4" value="bike">Bicycle <br>
+                        <input type="checkbox" name="vehicle5" value="dragon">Dragon <br>
+                        <input type="checkbox" name="vehicle6" value="horse">Horse <br>
+
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <label for="date">Date: </label>
+                    </td>
+
+                    <td>
+                        <input type="date" name="date">
+                    </td>
+                </tr>
+
+
+                <!--submit button! must have for functionality!-->
+                <tr>
+                    <td>
+
+                    </td>
+
+                    <td>
+                        <input type="submit" value="SUBMIT">
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </form>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uvIsvZlk4GE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</body>
+</html>
