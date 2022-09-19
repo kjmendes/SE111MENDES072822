@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 </title>
+    <style>
+        
+        body {
+            background-color:rgb(214, 118, 118);
+        }
+    </style>
+    <script>
+        alert(`Welcome to the week 6 Paycheck calculator`)
+
+        var num1 = prompt("Enter your hourly wage:")
+        var num2 = prompt("Enter the number of hours worked weekly:")
+        var num3= prompt("Enter the tax % of hourly wage as a decimal:")
+
+        var num4 = num1 * num2 // gross pay 
+        console.log(num4)
+        var num5 = num1 * num2 * num3 // taxed amount
+        console.log(num5)
+        var num6 = num4 - num5 //net pay
+
+        alert(`Your total gross pay is: ${num4}`)
+        alert (`Your total net pay is: ${num6}`)
+        alert(`Your total is taxed is ${num5}`)
+
+    </script>
+</body>
+</html>
